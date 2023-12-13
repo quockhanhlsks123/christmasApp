@@ -1,0 +1,27 @@
+.container{
+    background-image: url("../../public/backgourndSignin.png");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+
+    width: 100%;
+    height: 700px;
+    display: flex;
+
+    .left-container{
+      width: 50%;
+      color: red;
+
+      .left-image{
+        z-index: 1000;
+        background-image: url("../../public/santaSignin.png");
+        width: 100%;
+        height: 500px;
+      }
+     
+}
+
+.right-container{
+    width: 50%;
+    color: red;
+}
+}
